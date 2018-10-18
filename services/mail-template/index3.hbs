@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+
+		body{
+			margin: 0;
+		}
+
+		/*encabezado*/
+		.encabezado{
+			background-color: rgb(247, 53, 169);
+			color: #FFFFFF;
+			padding: 2px 15px;
+			text-align: center;
+			margin: 0;
+			font-weight: bold;
+		}
+		/* contenido */
+		.contenidol{
+			padding: 4px 10%;
+			text-align: left;
+		}
+
+		.contenidoc{
+			padding: 4px 10%;
+			text-align: center;
+		}
+
+		img{
+			width: 60%;
+		}
+
+		.don{
+			width: 200px;
+		}
+
+		.btn{
+			padding: 7px;
+			background: rgb(247, 53, 169);
+			color: #fff;
+			font-size: 14px;
+			font-weight: bold;
+		}
+
+		.just{
+			text-align: justify;
+		}
+
+		.rosa{
+			color: rgb(247, 53, 169);
+		}
+
+		/* pie */
+		.pie{
+			padding: 4px 10%;
+		}
+
+		.fondogris{
+			background: #ebebeb;
+		}
+
+		.pie h3{
+			text-decoration: none;
+		}
+
+		.copy{
+			padding: 4px 10%;
+			font-size: 11px;
+		}
+
+		.copy p{
+			color: #c3bbc0;
+		}
+
+		.center{
+			text-align: center;
+		}
+
+	</style>
+</head>
+<body>
+
+	<!-- HEADER -->
+	<div class="encabezado" bgcolor="#f735a9">
+		<h4 color="#FFFFFF" class="collapse">MystiqueApp</h4>
+	</div>
+
+	<!-- BODY -->
+	<div class="contenidol">
+		<h1 class="center">¡Hola {{nombre}} {{apellido}}!</h1>
+		<p class="lead">Te damos la bienvenida a la comunidad de usuarios de Mystique, gracias a ello podrás disfrutar de nuestros beneficios.</p>
+	</div>
+	<div class="contenidoc">
+		<img class="center" src="http://res.cloudinary.com/joseencinoza/image/upload/v1527441724/IMG-20180523-WA0002.jpg"/>
+	</div>
+	<div class="contenidol">
+		<h3>¿Cómo usar MystiqueApp? </h3>
+		<p>Podrás solicitar servicios y disfrutar de contenido personalizado, acorde a tu perfil, como consejos de belleza, servicios y promociones.<br/>
+		Descarga MystiqueApp en tu teléfono inteligente e ingresa con tu usuario y contraseña indicados en la suscripción.
+		</p>
+		<br>
+	</div>
+		<div class="contenidoc fondogris">
+		<!-- <a class="btn">Descarga Mystique!</a> -->
+		<h2 class="rosa">Descarga Mystique!</h2>
+		<a href=""><img class="don" src="http://inglesmeyer.com.co/digital/courses/tips/playStore.png"/></a>
+		<a href=""><img class="don" src="https://www.lamansiondelsol.com/wp-content/themes/InternetPower/img/appStore.png"/></a>
+		<br>
+		<br><br>
+	</div>
+	<div class="contenidoc pie">
+		<h3>Ingresa a nuestra App con tus credenciales <br>Correo: {{correo}}<br>Contraseña: {{contrasenia}}</h3>
+<!-- 		<h3>Correo: {{correo}}</h3>
+		<h3>Contraseña: {{contrasenia}}</h3> -->
+	</div>
+	<div class="pie fondogris">
+		<p class="">Contáctanos:</p>
+		<p class="">Twitter: <strong><a href=" ">mystique</a></strong></p>
+		<p class="">Correo: <strong><a href=" ">mystique@gmail.com</a></strong></p>
+	</div>
+	<br>
+	<div class="contenidol copy">
+		<p>Mystique respeta tu privacidad y no tiene acceso a tu contraseña, le recomendamos guardar este correo en caso de olvido</p>
+	</div>
+	<div class="contenidoc copy">
+		<a href="#">MystiqueApp</a> |
+		<a class="center" href="#">Términos y condiciones</a> 
+	</div>
+
+</body>
+</html>
